@@ -18,7 +18,9 @@ public class APP {
         System.out.println("Enter a adverb:");
         String adverb = sc.nextLine();
 
-        System.out.print("Did you "+ verb + " your " + adjective + " " + noun + " " + adverb + "? That's hilarious");
+        String OutPutString = "Did you "+ verb + " your " + adjective + " " + noun + " " + adverb + "? That's hilarious!";
+
+        System.out.print(OutPutString);
 
 
 
